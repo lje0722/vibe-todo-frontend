@@ -1,0 +1,46 @@
+:root {
+  color: #172421;
+  background: #edf3e9;
+  font-family:
+    ui-rounded,
+    'Avenir Next',
+    'Nunito Sans',
+    'Segoe UI',
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    linear-gradient(120deg, rgba(255, 255, 255, 0.72), transparent 46%),
+    radial-gradient(circle at top left, rgba(255, 198, 93, 0.44), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(47, 122, 93, 0.18), transparent 38%),
+    #edf3e9;
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.42;
+  background-image:
+    linear-gradient(rgba(27, 47, 51, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(27, 47, 51, 0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+  content: '';
+  mask-image: linear-gradient(to bottom, #000, transparent 78%);
+}
+
+#root {
+  min-height: 100vh;
+}
