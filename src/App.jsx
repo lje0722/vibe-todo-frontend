@@ -132,10 +132,9 @@ function App() {
       <section className="hero-card" aria-labelledby="app-title">
         <div>
           <p className="eyebrow">Localhost Todo Desk</p>
-          <h1 id="app-title">오늘의 할 일을 정리하세요.</h1>
+          <h1 id="app-title">오늘 할 일을 정리하세요</h1>
           <p className="hero-copy">
-            생성, 조회, 수정, 삭제를 모두 지원하는 React Todo List입니다.
-            백엔드 API는 <code>{API_BASE_URL}</code>에 연결됩니다.
+            꾸준함은 작은 하루를 모아 결국 큰 변화를 만듭니다.
           </p>
         </div>
         <div className="todo-count" aria-label={`총 ${activeTodosCount}개 할 일`}>
